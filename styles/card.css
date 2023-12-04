@@ -1,12 +1,15 @@
 body {
     font-family: 'Sora', sans-serif;
     background-color: #FAFAF9;
+    height: screen;
+    display: flex;
+    justify-content: center;
 }
 .card {
     max-width: 400px;
     margin: auto;
     border-radius: 12px;
-    box-shadow: 10px 10px 40px #E5EAF0;
+    box-shadow: 10px 10px 30px #E5EAF0;
 }
 .container {
     display: flex;
@@ -26,9 +29,6 @@ img {
     color: #883AE1;
     font-size: 10px;
     font-weight: 600;
-}
-.description {
-      
 }
 
 .title {
